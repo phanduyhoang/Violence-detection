@@ -24,7 +24,7 @@ By using **Mediapipe keypoints** instead of raw images, we make classification *
 
 ---
 
-## 🔬 How It Works
+## How It Works
 1. **Keypoint Extraction**: Uses **Mediapipe Holistic** to extract **33 pose landmarks** and **42 hand landmarks**.
 2. **Data Collection**: Stores **30-frame sequences** of **pose + hand keypoints** and labels them (`punch`, `neutral`).
 3. **LSTM Model Training**: A **recurrent neural network (RNN)** is trained on these keypoint sequences to classify movements.
